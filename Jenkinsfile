@@ -18,7 +18,7 @@ node {
       destStream: 'hellopythonapp',
       destTag: 'test'
     openshiftVerifyDeployment depCfg: 'hellopythonapp',
-      namespace: 'testing00'
+      namespace: 'testing06'
   }
   stage('Aprobar (Produccion)') {
     input message: 'Aprobado para Produccion?',
